@@ -7,7 +7,7 @@ function fetchData() {
   const apiKey = 'ZmFmYTU4ZDYtNDlkOC0zOGUxLTg1MzktOWIzNDc2NTZjMWFkLjZjNjZjZTE2LTNlMTktNGFkOS1iYzcxLWE5NjU0ODRjMjJiMA==';
   const apiUrl = 'https://tcms.aiojiraapps.com/aio-tcms/api/v1/project/KD/testcycle/KD-CY-10/summary';
 
-  fetch(`${apiUrl}?apiKey=${apiKey}`, {
+  fetch(`${apiUrl}`, {
       method: 'GET',
       headers: {
           'Authorization': 'AioAuth ' + apiKey,
