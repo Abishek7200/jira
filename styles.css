@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #data {
+    margin-top: 20px;
+  }
+  
